@@ -1,15 +1,7 @@
-// 2. create components we can request and render
-let SplashComponent = {
-    template: `<h1>Welcome to my Super Awesome App!</h1>`
-}
-
-let AppComponent = {
-    template: `<h1>This is the app page</h1>`
-}
-
-let ErrorComponent = {
-    template: `<h1>That page doesn't exist</h1>`
-}
+// 2. import components we can request and render
+import SplashComponent from "./modules/SplashComponent.js";
+import AppComponent from "./modules/AppComponent.js";
+import ErrorComponent from "./modules/ErrorComponent.js";
 
 // 3. like Express Routes -> router.get ('/', ...) and do something with the request
 //    create routes inside
